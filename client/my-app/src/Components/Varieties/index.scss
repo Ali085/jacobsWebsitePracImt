@@ -1,0 +1,55 @@
+.variSec{
+    min-height: 100vh;
+    .AllCoffee{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .aboutJac{
+            max-width: 50%;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            padding: 40px 0 70px 0;
+            align-items: center;
+            p{
+                font-weight: 700;
+            }
+        }
+        .coffeeList{
+            ul{
+                display: flex;
+                gap: 70px;
+                li{
+                    transition: .3s;
+                    &:hover{
+                        scale: 1.1;
+                    }
+                    img{
+                        width: 200px;
+
+                    }
+                }
+            }
+        }
+        .bottonADDS{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            h4{
+                font-size: 40px;
+                padding: 40px 0 70px 0;
+
+            }
+            img{
+                width: 400px;
+                background-color: black;
+                padding: 30px;
+                margin-bottom: 50px;
+            }
+        }
+    }
+    
+}
